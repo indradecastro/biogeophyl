@@ -5,5 +5,6 @@ function ( fileOrText, nth, typeInput ){
 		fileOrText = "temp"
 	}
 	ret <- strsplit(scan(fileOrText, what = character(), skip = nth, nlines = 1, quiet=T), " ")[[4]]
+	unlink("temp")
 	return (read.tree(text=ret))
 }

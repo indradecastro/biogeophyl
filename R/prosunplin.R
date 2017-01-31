@@ -41,7 +41,7 @@ function(alltrees, sisters, numtrees) {
         tree.list <- lapply(1:numtrees, function(x){
               sunplin.n.tree(exp.trees, x, "tree")})
         class(tree.list) <- "multiPhylo"
-        write.tree(tree.list, file=dest.file, append=T)
+        # write.tree(tree.list, file=dest.file, append=T)
         return(tree.list)
   }, alltrees, allnodes)
   

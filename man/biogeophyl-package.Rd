@@ -9,11 +9,8 @@
 \packageDescription{biogeophyl}
 }
 \details{
-
-The DESCRIPTION file:
 \packageDESCRIPTION{biogeophyl}
 \packageIndices{biogeophyl}
-~~ An overview of how to use the package, including the most important functions ~~
 }
 \author{
 \packageAuthor{biogeophyl}
@@ -21,13 +18,9 @@ The DESCRIPTION file:
 Maintainer: \packageMaintainer{biogeophyl}
 }
 \references{
-~~ Literature or other references for background information ~~
+Martins, W. S.; Carmo, W. C.; Longo, H. J.; Rosa, T. C. & Rangel, T. F. (2013) SUNPLIN: Simulation with Uncertainty for Phylogenetic Investigations. \emph{BMC Bioinformatics}, \bold{14}, 324
 }
 \keyword{ package }
 \seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
-}
-\examples{
-~~ simple examples of the most important functions ~~
+\code{\link[ape:ape-package]{ape}}, \code{\link[phytools:phytools-package]{phytools}}
 }

@@ -3,7 +3,7 @@ Type: Package
 Title: A package to help biogeographers that use (incomplete) phylogenetic data
 Version: 1.0
 Date: 2017-01-31
-Author: Indradatta deCastro-Arrazola (modified from sunplin) with collaboration for get_mono
+Author: Indradatta deCastro-Arrazola (modified from package sunplin) with essential collaboration from Joaquín Calatayud for function get_mono
 Maintainer: Indradatta deCastro-Arrazola <indradatta@wanadoo.fr>
 Description: A package to help biogeographers that use (incomplete) phylogenetic data
 LazyData: true
