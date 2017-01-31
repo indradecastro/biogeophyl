@@ -1,3 +1,0 @@
-useDynLib(biogeophyl)
-importFrom(Rcpp, evalCpp)
-exportPattern("^[[:alpha:]]+")
