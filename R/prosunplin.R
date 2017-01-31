@@ -45,5 +45,6 @@ function(alltrees, sisters, numtrees) {
         return(tree.list)
   }, alltrees, allnodes)
   
+  class(expanded.trees) <- "multiPhylo"
   return(expanded.trees)
 }
