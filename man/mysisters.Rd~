@@ -1,0 +1,32 @@
+\name{mysisters}
+\alias{mysisters}
+\docType{data}
+\title{
+bla bla bla
+}
+\description{
+%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+}
+\usage{data("mysisters")}
+\format{
+  The format is:
+List of 4
+ $ Onth.X: chr [1:7] "Onth1" "Onth2" "Anomius" "Onth4" ...
+ $ Scar.X: chr [1:3] "Scar1" "Scar2" "Scar3"
+ $ Anom.X: chr "Anomius.baeticus"
+ $ Bodi.X: chr "Anomius.baeticus"
+}
+\details{
+%%  ~~ If necessary, more details than the __description__ above ~~
+}
+\source{
+%%  ~~ reference to a publication or URL from which the data were obtained ~~
+}
+\references{
+%%  ~~ possibly secondary sources and usages ~~
+}
+\examples{
+data(mysisters)
+## maybe str(mysisters) ; plot(mysisters) ...
+}
+\keyword{datasets}
